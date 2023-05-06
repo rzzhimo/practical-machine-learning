@@ -23,7 +23,10 @@ Challenges：
 ### Active Learning + Self-training
 ### Weak Supervision
 ### Summary
-1. Ways to get labels：
+1. Ways to get labels：  
 Self-training:iteratively train models to label unlabeled data   
-Crowdsourcing:leverage global labelers to manually label data   Dataprogramming:heuristic programs to assign noisy labels   
+
+Crowdsourcing:leverage global labelers to manually label data   
+
+Dataprogramming:heuristic programs to assign noisy labels   
 2. Alternatively, You could also consider unsupervised/self-supervised learnings
