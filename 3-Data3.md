@@ -13,5 +13,20 @@ Understanding the interactions between columns
 ### Summary
 1. Types of data errors: outliers, rule violations, pattern violations 
 2. Multiple tools exist to help data cleaning：  
-• Graphicinterfaceforinteractivecleaning   
-• Automaticallydetectandfix  
+Graphic interface for interactive cleaning   
+Automatically detect and fix  
+
+## 2.3 Data Transformation|数据转换
+
+### Normalization for Real Value Columns
+### Image Transformations
+### Video Transformations
+### Text Transformations
+
+### Summary
+1. Transform data into formats preferred by ML algorithms
+2. Need to balance storage, quality, and loading speed
+Tabular:normalize real value features  
+Images:cropping,downsampling,whitening   
+Videos:clipping,sampling frames  
+Text:stemming,lemmatization,tokenization  
