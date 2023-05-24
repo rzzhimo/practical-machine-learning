@@ -37,10 +37,10 @@
 1. Language model: predict the next word
 2. Use MLP naively doesn’t handle sequence info well
 ### RNN and Gated RNN
-1. Simple RNN: $h_t = \phi(\mathbf{W}_{hh}\mathbf{h}_{t−1} + \mathbf{W}_{hx}\mathbf{x}_t + \mathbf{b}_h)$
+1. Simple RNN: $h_t=\phi(\mathbf{W_{hh}}\mathbf{h_{t−1}}+\mathbf{W_{hx}}\mathbf{x_t}+\mathbf{b_h})$
 2. Gated RNN (LSTM, GRU): finer control of information flow
-   1. Forget input:suppress $\mathbf{x}_t$ when computing $\mathbf{h}_t$
-   2. Forget past:suppress $\mathbf{h}_{t−1}$ when computing $\mathbf{h}_t$
+   1. Forget input:suppress $\mathbf{x_t}$ when computing $\mathbf{h_t}$
+   2. Forget past:suppress $\mathbf{h_{t−1}}$ when computing $\mathbf{h_t}$
 ### Code
 Implement Simple RNN
 ### Bi-RNN and Deep RNN
