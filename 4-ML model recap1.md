@@ -43,16 +43,18 @@
 A simple house price prediction
 ### Objective Function
 1. Collect n training examples $X = [x_1, x_1, ..., x_n]^T ∈ \mathbb{R}^{n×p}$ with labels $y = [y_1, ..., y_n]^T ∈ \mathbb{R}^n$
-2. Objective: minimize the mean square error (MSE)
+2. Objective: minimize the **mean square error** (MSE)
 ### Use linear regression for classification problem
 1. Regression: continuous output in $\mathbb{R}$
 2. Multi-class classification:
 3. Waste model capacity on pushing $o_i$ near 0 for off labels
 ### Softmax Regression
 1. One-hot label $\mathbf{y}=[y_1,y_2,...,y_m]where\ y_i =1\ if\ i=y\ otherwise\ 0$
-2. $ \hat{\mathbf{y}}=softmax(\mathbf{o})\ where\ \hat{y_i}=\frac{exp(o_i)}{\sum_{k=1}^nexp(o_k)}$
+2. $\hat{\mathbf{y}}=softmax(\mathbf{o})\ where\ \hat{y_i}=\frac{exp(o_i)}{\sum_{k=1}^nexp(o_k)}$
 3. Cross-entropy loss between two distributions $\hat{\mathbf{y}}\ and\ \mathbf{y}$
-### Mini-batch Stochastic gradient descent (SGD)
+
+
+## 3.4 Mini-batch Stochastic gradient descent (SGD)|随机梯度下降
 1. Train by mini-batch SGD (by various other ways as well)
 2. Pros: solve all objectives in this course except for trees
 3. Cons: sensitive to hyper-parameters
