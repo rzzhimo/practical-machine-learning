@@ -42,7 +42,7 @@
 ### Linear Regression
 A simple house price prediction
 ### Objective Function
-1. Collect n training examples $X = [x_1, x_1, ..., x_n]^T ∈ \mathbb{R}^{n×p}$ with labels $y = [y_1, ..., y_n]^T ∈ \mathbb{R}^n$
+1. Collect n training examples $X = [x_1, x_1, ..., x_n]^T ∈ \mathbb{R}^{n×p}$ with labels $\mathbf{y} = [y_1, ..., y_n]^T ∈ \mathbb{R}^n$
 2. Objective: minimize the **mean square error** (MSE)
 ### Use linear regression for classification problem
 1. Regression: continuous output in $\mathbb{R}$
