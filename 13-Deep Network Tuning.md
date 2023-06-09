@@ -8,8 +8,8 @@
 3. Reshape | Normalize | Recovery
 ### Layer Normalization
 1. If apply to RNN, BN needs maintain separated moving statistics for each time step
-2. Layer normalization reshapes input X ∈ Rn×p → X′ ∈ Rp×n or
-X ∈ Rn×c×w×h → X′ ∈ Rcwh×n, rest is same with BN
+2. Layer normalization reshapes input $\mathbf{X} ∈ \mathbb{R}^{n×p} → \mathbf{X^′} ∈ \mathbb{R}^{p×n} or
+\mathbf{X} ∈ \mathbb{R}^{n×c×w×h} → \mathbf{X^′} ∈ \mathbb{R}^{cwh×n}, rest\ is\ same\ with\ BN$
 ### More Normalizations
 1. Modify “reshape”
 2. Modify “normalize”
