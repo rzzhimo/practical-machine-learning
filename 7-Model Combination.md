@@ -31,3 +31,4 @@
 2. Repeated k-fold bagging
 
 ### Model Combination Summary
+![Model Combination Summary](resource/5-4-1.png)
